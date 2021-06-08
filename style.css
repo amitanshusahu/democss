@@ -23,9 +23,12 @@ nav a{
     padding: 20px;
     float:left;
     font-size: 3vh;
+    display:block;
 }
 nav a:hover{
     color:#6dff49;
+    background-color: #62ff5d ;
+    pointer-events: fill;
 }
 nav a:visited{
     color:#888888;
